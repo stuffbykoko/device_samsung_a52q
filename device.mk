@@ -35,5 +35,9 @@ PRODUCT_COPY_FILES += \
 # Camera (id 54 is macro)
 $(call soong_config_set,samsungCameraVars,extra_ids,54)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)
+
 # call the extra setup
 $(call inherit-product, vendor/extra/product.mk)
