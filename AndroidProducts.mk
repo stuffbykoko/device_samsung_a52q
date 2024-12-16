@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a52q.mk
+    $(LOCAL_DIR)/yaap_a52q.mk
