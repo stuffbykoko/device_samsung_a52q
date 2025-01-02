@@ -14,6 +14,12 @@ from extract_utils.main import (
 
 namespace_imports = [
     'vendor/samsung/sm7125-common',
+    'device/samsung/sm7125-common',
+    'hardware/qcom-caf/sm8150',
+    'hardware/qcom-caf/wlan',
+    'hardware/samsung',
+    'vendor/qcom/opensource/dataservices',
+    'vendor/qcom/opensource/display',
 ]
 
 module = ExtractUtilsModule(
@@ -21,7 +27,6 @@ module = ExtractUtilsModule(
     'samsung',
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
-    check_elf=False,
 )
 
 if __name__ == '__main__':
