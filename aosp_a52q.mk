@@ -31,6 +31,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
+IS_OFFICIAL := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_a52q
