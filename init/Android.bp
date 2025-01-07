@@ -1,0 +1,9 @@
+
+// Init files
+
+prebuilt_etc {
+    name: "init.a52q.rc",
+    src: "etc/init.a52q.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
