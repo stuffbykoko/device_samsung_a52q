@@ -44,8 +44,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="a52qnsxx-user 11 RP1A.200720.012 A525FXXS9FXJ1 release-keys" \
-    BuildFingerprint=samsung/a52qnsxx/a52q:11/RP1A.200720.012/A525FXXS9FXJ1:user/release-keys
+    BuildDesc="a52qnsxx-user 11 RP1A.200720.012 A525FXXSAFXJ2 release-keys" \
+    BuildFingerprint=samsung/a52qnsxx/a52q:11/RP1A.200720.012/A525FXXSAFXJ2:user/release-keys
 
 # Security patch
-VENDOR_SECURITY_PATCH := 2024-10-01
+VENDOR_SECURITY_PATCH := 2024-11-01
