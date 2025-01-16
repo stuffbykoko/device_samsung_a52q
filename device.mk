@@ -32,5 +32,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Camera (id 54 is macro)
+$(call soong_config_set,samsungCameraVars,extra_ids,54)
+
 # call the extra setup
 $(call inherit-product, vendor/extra/product.mk)
