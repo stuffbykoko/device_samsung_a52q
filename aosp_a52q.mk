@@ -20,6 +20,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_OFFICIAL := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_a52q
